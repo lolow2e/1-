@@ -1931,6 +1931,17 @@ section {
         max-width: 250px;
         margin-top: 1.5rem;
     }
+    
+    .author-signature {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.6);
+        font-style: italic;
+    }
 }
 
 .stars-container {
