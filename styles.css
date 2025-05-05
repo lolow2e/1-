@@ -1944,6 +1944,22 @@ section {
     }
 }
 
+/* Подпись автора - Добавлена глобально для поддержки всех браузеров, включая Safari на iOS */
+.author-signature {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    letter-spacing: 0.5px;
+    display: block; /* Гарантирует отображение в Safari */
+    position: relative; /* Добавляет контекст расположения для Safari */
+    z-index: 5; /* Помещает над другими элементами */
+}
+
 .stars-container {
     position: absolute;
     top: 0;
